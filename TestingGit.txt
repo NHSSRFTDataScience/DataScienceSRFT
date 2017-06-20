@@ -1,0 +1,36 @@
+#Testing the Git
+
+# load up some R packages including a few we'll need later
+library(topicmodels)
+library(doParallel)
+library(ggplot2)
+library(scales)
+
+data("AssociatedPress", package = "topicmodels")
+
+burnin = 1000
+iter = 1000
+keep = 50
+
+full_data <- CorpusObj
+full_data  <- AssociatedPress
+n <- nrow(full_data)
+#-----------validation--------
+k <- 5
+
+splitter <- sample(1:n, round(n * 0.75))
+train_set <- full_data[splitter, ]
+valid_set <- full_data[-splitter, ]
+
+
+time=2011-11-10T18Z&
+
+2017-06-13T12:00:00Z
+
+
+
+https://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:IMANCHES1&MR=1
+
+
+
+http://datapoint.metoffice.gov.uk/public/data/val/wxobs/all/xml/all?res=hourly&time=2017-6-13&key=fd719eb3-375b-4819-96dc-f2c2bf95fd8c
