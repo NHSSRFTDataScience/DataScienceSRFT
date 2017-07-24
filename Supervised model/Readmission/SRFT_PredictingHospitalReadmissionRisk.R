@@ -153,7 +153,7 @@ transformRule = list(
 )
 
 # train using transforms !
-model <- rxLogisticRegression(
+model <- rxFastTrees(
   ReAdmitted30days ~ Features1+Features2+PC1+PC2+PC3+PC4+PC5+PC6+PC7+PC8+PC9+PC10,
   data = dataTrain,
   mlTransforms = transformRule,
