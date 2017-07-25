@@ -1,2 +1,0 @@
-# DataScienceSRFT
-Data Science Projects
